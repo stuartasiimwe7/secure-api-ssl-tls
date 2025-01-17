@@ -24,35 +24,38 @@ Start by cloning this repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/secure-api-ssl-tls.git
 cd secure-api-ssl-tls
+```
 
 ### 2. Set Up the Development Environment
-Create and Activate a Virtual Environment
-Use venv to create an isolated Python environment:
+Create and activate a virtual environment using `venv`:
 
+```bash
 python -m venv venv
 # On Windows
 venv\Scripts\activate
 # On macOS/Linux
 source venv/bin/activate
+```
 
-Install Flask
 Install Flask using pip:
 
 ```bash
 pip install flask
+```
 
 ### 3. Generate SSL/TLS Certificates
-We will generate self-signed SSL certificates using OpenSSL. Open your terminal and run the following commands:
+Generate self-signed SSL certificates using OpenSSL. Open your terminal and run the following commands:
 
 ```bash
 openssl genpkey -algorithm RSA -out server.key
 openssl req -new -key server.key -out server.csr
 openssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt
+```
 
 This will create:
-
 - `server.key`: Your private key.
 - `server.crt`: Your certificate.
+
 These files will be used by the Flask application to enable HTTPS.
 
 ### 4. Run the Flask App
@@ -60,3 +63,4 @@ Run the app using the following command:
 
 ```bash
 python app.py
+```
