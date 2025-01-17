@@ -31,12 +31,16 @@ Create and activate a virtual environment using `venv`:
 
 ```bash
 python -m venv venv
+```
+```bash
 # On Windows
 venv\Scripts\activate
+```
+
+```bash
 # On macOS/Linux
 source venv/bin/activate
 ```
-
 Install Flask using pip:
 
 ```bash
