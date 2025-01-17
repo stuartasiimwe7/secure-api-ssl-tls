@@ -39,7 +39,6 @@ venv\Scripts\activate
 
 #### On macOS/Linux
 ```bash
-# On macOS/Linux
 source venv/bin/activate
 ```
 Install Flask using pip:
