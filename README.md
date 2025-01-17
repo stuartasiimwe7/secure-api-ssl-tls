@@ -55,3 +55,8 @@ This will create:
 - `server.crt`: Your certificate.
 These files will be used by the Flask application to enable HTTPS.
 
+### 4. Run the Flask App
+Run the app using the following command:
+
+```bash
+python app.py
