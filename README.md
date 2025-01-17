@@ -32,11 +32,12 @@ Create and activate a virtual environment using `venv`:
 ```bash
 python -m venv venv
 ```
+#### On Windows
 ```bash
-# On Windows
 venv\Scripts\activate
 ```
 
+#### On macOS/Linux
 ```bash
 # On macOS/Linux
 source venv/bin/activate
