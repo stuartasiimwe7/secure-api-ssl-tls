@@ -5,7 +5,7 @@ This project demonstrates how to set up a secure API using Flask and SSL/TLS enc
 ## Features
 - An API built with Flask that responds with a message.
 - SSL/TLS encryption enabled for secure communication.
-- Self-signed SSL certificates for local testing and learning.
+- Self-signed SSL certificates for local testing.
 
 ---
 
