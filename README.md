@@ -3,7 +3,7 @@
 This project demonstrates how to set up a secure API using Flask and SSL/TLS encryption. By encrypting data transmission, we ensure secure communication between clients and servers. This is a fundamental skill in system security and is widely applicable to embedded systems, IoT devices, and web applications.
 
 ## Features
-- A simple API built with Flask that responds with a message.
+- An API built with Flask that responds with a message.
 - SSL/TLS encryption enabled for secure communication.
 - Self-signed SSL certificates for local testing and learning.
 
