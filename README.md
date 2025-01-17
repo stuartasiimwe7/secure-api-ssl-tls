@@ -25,3 +25,19 @@ Start by cloning this repository to your local machine:
 git clone https://github.com/yourusername/secure-api-ssl-tls.git
 cd secure-api-ssl-tls
 
+### 2. Set Up the Development Environment
+Create and Activate a Virtual Environment
+Use venv to create an isolated Python environment:
+
+python -m venv venv
+# On Windows
+venv\Scripts\activate
+# On macOS/Linux
+source venv/bin/activate
+
+Install Flask
+Install Flask using pip:
+
+```bash
+pip install flask
+
