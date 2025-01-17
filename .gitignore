@@ -2,6 +2,10 @@
 *.d
 venv/
 venv/*
+server.crt
+server.key
+server.pem
+server.csr
 
 # Object files
 *.o
