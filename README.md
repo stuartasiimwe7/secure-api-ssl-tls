@@ -41,3 +41,17 @@ Install Flask using pip:
 ```bash
 pip install flask
 
+### 3. Generate SSL/TLS Certificates
+We will generate self-signed SSL certificates using OpenSSL. Open your terminal and run the following commands:
+
+```bash
+openssl genpkey -algorithm RSA -out server.key
+openssl req -new -key server.key -out server.csr
+openssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt
+
+This will create:
+
+- `server.key`: Your private key.
+- `server.crt`: Your certificate.
+These files will be used by the Flask application to enable HTTPS.
+
